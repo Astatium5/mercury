@@ -1,12 +1,8 @@
-import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
+import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const Login = () => {
-    return (
-        <SafeAreaView>
-
-        </SafeAreaView>
-    )
+  return <SafeAreaView></SafeAreaView>
 }
 
-export default Login;
+export default Login

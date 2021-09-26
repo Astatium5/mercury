@@ -1,12 +1,8 @@
-import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context"
+import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const Register = () => {
-    return (
-        <SafeAreaView>
-
-        </SafeAreaView>
-    )
+  return <SafeAreaView></SafeAreaView>
 }
 
-export default Register;
+export default Register
