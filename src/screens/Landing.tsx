@@ -3,12 +3,22 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { Text, StyleSheet } from 'react-native'
 import Button from '../components/Button'
 
-const Landing = () => {
+const Landing = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Welcome!</Text>
-      <Button title="Login" onPress={null} />
-      <Button title="Register" onPress={null} />
+      <Button
+        title="Login"
+        onPress={() => {
+          navigation.navigate('Login')
+        }}
+      />
+      <Button
+        title="Register"
+        onPress={() => {
+          navigation.navigate('Register')
+        }}
+      />
     </SafeAreaView>
   )
 }

@@ -7,14 +7,16 @@
  *
  * @format
  */
-import { StyleSheet } from 'react-native'
 import React from 'react'
-import Landing from './screens/Landing'
+import MainStack from './screens/Navigation'
+import { NavigationContainer } from '@react-navigation/native'
 
 const App = () => {
-  return <Landing></Landing>
+  return (
+    <NavigationContainer>
+      <MainStack></MainStack>
+    </NavigationContainer>
+  )
 }
-
-const styles = StyleSheet.create({})
 
 export default App
