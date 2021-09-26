@@ -10,9 +10,12 @@
 import { StyleSheet } from 'react-native'
 import React from 'react'
 import Landing from './screens/Landing'
+import Dashboard from './screens/Wallet'
+import Wallet from './screens/Wallet'
 
 const App = () => {
-  return <Landing></Landing>
+  return <Wallet></Wallet>
+  // return <Landing></Landing>
 }
 
 const styles = StyleSheet.create({})
